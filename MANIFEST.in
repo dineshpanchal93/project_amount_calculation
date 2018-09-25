@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include project_amount_calculation *.css
+recursive-include project_amount_calculation *.csv
+recursive-include project_amount_calculation *.html
+recursive-include project_amount_calculation *.ico
+recursive-include project_amount_calculation *.js
+recursive-include project_amount_calculation *.json
+recursive-include project_amount_calculation *.md
+recursive-include project_amount_calculation *.png
+recursive-include project_amount_calculation *.py
+recursive-include project_amount_calculation *.svg
+recursive-include project_amount_calculation *.txt
+recursive-exclude project_amount_calculation *.pyc
